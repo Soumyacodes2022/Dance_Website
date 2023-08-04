@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/logo.png")
+                | SDA
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Contact Us]
+
+    section#introSection 
+        div.container
+          div Welcome to STAR Dance Academy
+          div.small Dance leads to Charming Life
+    section#Missionseciton 
+          h2 Our Mission
+          div.card
+              h3 Dance The Way You Like
+              div.card-box
+                div.card-img
+                  img(src="/static/1.png")
+                div.card-content
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta.
+          div.card
+              h3 Expert choreography 
+              div.card-box
+                div.card-img
+                  img(src="/static/2.png")
+                div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aut!
+          div.card
+              h3 Expert Teacher
+              div.card-box
+                div.card-img
+                  img(src="/static/3.png")
+                div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+    section#Sponsorseciton 
+          h2 Our Sponsors
+          div#sponsors
+            img(src="/static/logo1.png", alt="Sponsors", Class="SpImage")
+            img(src="/static/logo2.png", alt="Sponsors", Class="SpImage")
+            img(src="/static/logo3.png", alt="Sponsors", Class="SpImage")
+            img(src="/static/logo4.png", alt="Sponsors", Class="SpImage")
+
+    footer#footer
+        | Copyright © 2023 Flashwebsites.com | All Rights Reserved
+        
+    script
+      include ../static/script.js

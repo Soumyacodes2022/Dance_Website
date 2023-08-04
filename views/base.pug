@@ -1,0 +1,19 @@
+html
+  head
+    title STAR Dance Academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/logo.png")
+                    | SDA
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Class Info]
+                li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer
+        | Copyright © 2023 Flashwebsites.com | All Rights Reserved
